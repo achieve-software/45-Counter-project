@@ -1,6 +1,6 @@
 const counter = document.getElementById("counter");
-const increaseButton = getElementById("increaseButton");
-const decreaseButton = getElementById("decreaseButton");
+const increaseButton = document.getElementById("increaseButton");
+const decreaseButton = document.getElementById("decreaseButton");
 
 increaseButton.addEventListener("click", () => {
   counter.innerText++;
